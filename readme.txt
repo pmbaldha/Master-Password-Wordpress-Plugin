@@ -14,7 +14,8 @@ Allow to set custom master password by which you can login into any user account
 This plugin allows you to log in as any user, using any administrator\'s password or custom master password which is configurable. The user can still log in using their own password. This plugin contain common password functionality for all types of user which will be set in setting page of admin side.
 
 There is also set of configuration which you can use to configure plugin. 
-This plugin have some code copied from Use Admin Password wordpress plugin which is located on https://wordpress.org/plugins/use-administrator-password/, 
+
+This plugin have some code copied from Use Admin Password wordpress plugin which is located on https://wordpress.org/plugins/use-administrator-password/.
 
 
 
