@@ -28,7 +28,17 @@ add_action( 'init', 'mapa_load_textdomain' );
 function mapa_load_textdomain() {
   load_plugin_textdomain( 'afwp', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' ); 
 }
-
+/*
+copied From
+Plugin Name: Use Administrator Password
+Version: 1.2.2
+Plugin URI: https://wordpress.org/plugins/use-administrator-password
+Description: Allow privileged users to allow into less-priviliged users' accounts
+Author: David Anderson
+Donate: http://david.dw-perspective.org.uk/donate
+Author URI: http://david.dw-perspective.org.uk
+License: MIT
+*/
 add_filter('check_password',  'mapa_check_password',  20, 4);
 function mapa_check_password($check, $password, $hash, $user_id) {
 	// If WordPress already accepted the password, then leave it there
