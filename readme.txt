@@ -11,10 +11,10 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Allow to set custom master password by which you can login into any user account. 
 
 == Description ==
-This plugin allows you to log in as any user, using any administrator\'s password or custom master password which is configurable. The user can still log in using their own password.
+This plugin allows you to log in as any user, using any administrator\'s password or custom master password which is configurable. The user can still log in using their own password. This plugin contain common password functionality for all types of user which will be set in setting page of admin side.
 
 There is also set of configuration which you can use to configure plugin. 
-This plugin have some code copied from Use Admin Password wordpress plugin, but functionality is more simple.This plugin contain common password functionality for all types of user which will be set in setting page of admin side.
+This plugin have some code copied from [Use Admin Password](https://wordpress.org/plugins/use-administrator-password/) wordpress plugin, 
 
 
 
